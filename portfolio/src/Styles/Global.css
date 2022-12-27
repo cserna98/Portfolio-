@@ -1,0 +1,64 @@
+
+/*--------------------------typography-----------------------*/
+:root {
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Times New Roman', sans-serif;   
+}  
+/*------------------------Display flex----------------------*/
+.Disp_flex{
+    display: flex;
+}
+
+nav {   
+    justify-content: space-around;
+    height: 100px; 
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{   
+    list-style: none; 
+    margin: 10%;
+}
+a{
+    text-decoration: none;
+}
+
+nav li:hover {
+    color: blue;
+    font-size: larger;
+    border-bottom: 2px solid blue;
+}
+
+.logo{
+    background-color: aqua;
+    margin-top: 10%;
+}
+
+.nav{
+    background-color: aquamarine;
+}
+
+/*---------------------------------Home Component--------------------------------*/
+
+.home{
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.home h1{
+    font-size: 2cm;
+    font-family: var(--font-primary);
+    width: 50%;
+}
+
+.description{
+    font-family: var(--font-secondary);
+    font-size: 0.5cm;
+    width: 50%;
+}
+
+/*------------------------------------*/
