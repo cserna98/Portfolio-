@@ -1,9 +1,9 @@
 function Home() {
 
     return (
-      <div className="home Disp_flex">
+      <div className="description Disp_flex">
         <h1>Hello, i'm Cristian and this is my personal web site </h1>
-        <p className="description">Web developer in training, with a strong interest
+        <p className="descriptionText">Web developer in training, with a strong interest
         in learning and familiarizing myself with the tools 
         necessary to create digital projects efficiently. My
         goal is to become a professional capable of creating

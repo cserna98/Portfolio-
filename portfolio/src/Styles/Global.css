@@ -7,11 +7,14 @@
 /*------------------------Display flex----------------------*/
 .Disp_flex{
     display: flex;
-}
-
+   }
+/*-----------------------Barra de navegacion----------------*/
 nav {   
     justify-content: space-around;
     height: 100px; 
+    position: fixed;
+    width: 100%;    
+    
 }
 
 ul{
@@ -39,26 +42,49 @@ nav li:hover {
 }
 
 .nav{
-    background-color: aquamarine;
+    background-color: transparent;
 }
 
 /*---------------------------------Home Component--------------------------------*/
 
-.home{
+.description{
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 100px;   
 }
 
-.home h1{
+h1{
     font-size: 2cm;
     font-family: var(--font-primary);
     width: 50%;
+    
 }
 
-.description{
+.descriptionText{
     font-family: var(--font-secondary);
     font-size: 0.5cm;
     width: 50%;
 }
 
-/*------------------------------------*/
+/*------------------------------------Habilities cards---------------------*/
+
+.Habilities{    
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;    
+}
+
+.cards{
+    margin: 25px;
+    border-radius: 15px;
+    padding: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    position: relative;
+}
+.cards:hover{
+background-color: rgba(231, 246, 253, 0.8); ;
+justify-content: space-between;
+}
+
+
+
