@@ -1,7 +1,8 @@
 function Home() {
 
     return (
-      <div className="description Disp_flex">
+      <main>
+        <div className="description Disp_flex">
         <h1>Hello, i'm Cristian and this is my personal web site </h1>
         <p className="descriptionText">Web developer in training, with a strong interest
         in learning and familiarizing myself with the tools 
@@ -10,8 +11,10 @@ function Home() {
         comprehensive programs that serve as tools for 
         society. I am constantly striving to improve and 
         enhance my skills in order to provide value and make
-         a difference in the world.</p>        
+        a difference in the world.</p>        
       </div>
+      </main>
+      
     );
   }
 

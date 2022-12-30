@@ -1,4 +1,4 @@
-import { GlobalContext } from '../components/utils/global.contex';
+import { GlobalContext } from '../utils/global.contex';
 import { useState } from 'react';
 function About() {
     
@@ -8,7 +8,7 @@ function About() {
     }
 
     return (     
-    <div id="about">
+    <main id="about">
         <div className="description">
         <img/>
         <h1>My full name, Cristian Serna Lopez </h1>        
@@ -39,6 +39,7 @@ function About() {
       </div>
 
       <div className="Habilities Disp_flex">
+        <h2>HABILITIES</h2>
         {habilities.map((e,index)=>(
             <div className='cards' key={e.id}>
                 <h2>{e.habilitie}</h2>
@@ -50,7 +51,7 @@ function About() {
             </div>
         ))}
       </div>
-    </div>
+    </main>
     );
   }
 
