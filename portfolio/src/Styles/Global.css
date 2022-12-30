@@ -11,25 +11,27 @@ main{
     margin: 50px;
     margin-top: 100px;
     height: 100vh;
+    align-items: center;
 }
 /*------------------------Display flex----------------------*/
 .Disp_flex{
     display: flex;
    }
-/*-----------------------Barra de navegacion----------------*/
+/*-----------------------navegatiom bar----------------*/
 nav {   
     justify-content: space-around;
-    top: 0;
+    align-items: center;
+    top: 25px;
     left: 0;
     height: 50px;
     position: fixed;
     width: 100%; 
-    background-color: white;     
+    background-color:transparent;     
 }
 
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 li{   
@@ -40,10 +42,12 @@ a{
     text-decoration: none;
 }
 
-nav li:hover {
-    color: blue;
+nav li:hover {    
     font-size: larger;
-    border-bottom: 2px solid blue;
+    padding: 5px;
+    background-color: #adcdf071;
+    border: 2px solid rgb(175, 175, 224);
+    border-radius: 5px;
 }
 
 .logo{
@@ -79,7 +83,8 @@ h1{
 
 .Habilities{    
     justify-content: space-between;
-    align-items: center;      
+    align-items: center;
+    flex-direction: column;     
 }
 
 .cards{
@@ -88,12 +93,19 @@ h1{
     padding: 25px;
     overflow: hidden;
     text-overflow: ellipsis;    
-    position: relative;
+    background-color: antiquewhite;
+
+}
+
+.container_cards{
+    flex-direction: row;      
 }
 .cards:hover{
 background-color: rgba(231, 246, 253, 0.8); ;
 justify-content: space-between;
 }
+
+/*--------------------*/
 
 /*-------------------- estilos formulario contact -----------------------*/
 
@@ -137,8 +149,7 @@ form {
   
   button:hover {
     background-color: #005bbb;
-  }
-  
+}  
   p {
     font-size: 1.2rem;
     color: green;

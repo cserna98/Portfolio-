@@ -5,7 +5,7 @@ function Projects() {
           <h1>Projects</h1>
           <p>Información sobre los proyectos</p>
         </div>
-        <div>
+        <div className="projectState">
           <h1>Projects</h1>
           <p>Información sobre los proyectos</p>
         </div>        

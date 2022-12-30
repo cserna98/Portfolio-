@@ -1,11 +1,11 @@
 import { GlobalContext } from '../utils/global.contex';
-import { useState } from 'react';
+import Habilities from '../habilities/Habilities';
+
 function About() {
     
     const {habilities} = GlobalContext()  
-    const [showFullContent, setShowFullContent] = useState(false); 
-    const toggleShowContent = (index) =>{
-    }
+    
+    
 
     return (     
     <main id="about">
@@ -35,21 +35,17 @@ function About() {
         technical developer. Currently, I am acquiring skills in 
         front-end, back-end and infrastructure knowledge to 
         effectively work on technology projects.
-        </p>         
+        </p>
+        <div className='curriculum'>
+        </div>         
       </div>
 
       <div className="Habilities Disp_flex">
         <h2>HABILITIES</h2>
-        {habilities.map((e,index)=>(
-            <div className='cards' key={e.id}>
-                <h2>{e.habilitie}</h2>
-                {showFullContent ? (
-                <p>{e.description}</p>
-                ) : (<p>{e.description.substring(0, 100)}</p>)
-                }                
-                <button onClick={()=>toggleShowContent(index)}>...show more</button>
-            </div>
-        ))}
+        <Habilities></Habilities>
+        <div className='container_cards Disp_flex'>
+        
+        </div>
       </div>
     </main>
     );
