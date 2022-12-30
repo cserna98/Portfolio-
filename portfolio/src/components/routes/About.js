@@ -40,8 +40,7 @@ function About() {
         </div>         
       </div>
 
-      <div className="Habilities Disp_flex">
-        <h2>HABILITIES</h2>
+      <div className="Habilities Disp_flex">        
         <Habilities></Habilities>
         <div className='container_cards Disp_flex'>
         

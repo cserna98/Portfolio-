@@ -4,9 +4,7 @@ import { useState } from 'react';
 
 function Card({habilitie}) {
 
-    const [showFullContent, setShowFullContent] = useState(false); 
-    const toggleShowContent = () =>{
-    }
+    const [showFullContent, setShowFullContent] = useState(false);     
 
     return (
       <div className="cards">
@@ -15,7 +13,7 @@ function Card({habilitie}) {
                 <p>{habilitie.description}</p>
                 ) : (<p>{habilitie.description.substring(0, 100)}</p>)
                 }                
-                <button onClick={()=>toggleShowContent()}>...show more</button>
+                <button onClick={()=>setShowFullContent(!showFullContent)}>...show more</button>
       </div>
     );
   }
