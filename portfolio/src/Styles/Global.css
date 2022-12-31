@@ -9,8 +9,9 @@
 main{    
     margin: 50px;
     margin-top: 100px;
-    height: 100vh;
-    align-items: center;
+    margin-bottom: 100px;
+    height: auto;
+    align-items: center;   
 }
 
 .colum{
@@ -176,14 +177,33 @@ background-color: rgb(210, 228, 243);
 /*-----------------------------Projects Componente---------------------*/
 .projects{
     justify-content: space-around;
-    width: 90%;
-    
+    width: 90%;       
+}
 
+.project{    
+    height: auto;
+    width: 40%;
+    margin: 5px;    
+    border-radius: 15px;
+    padding: 25px;       
+    border: 2px solid rgb(175, 175, 224);   
+    overflow: hidden;  
+    text-overflow: ellipsis;  
 }
 
 .projectState{
-    border-radius: 15px;
-    background-color: aliceblue;
-    height: 70%;
+    border-radius: 15px;    
+    height: auto;
     width: 45%;
+    flex-direction: column;    
+    align-items: center;
+    border: 2px solid rgb(175, 175, 224); 
+    padding: 15px;  
 }
+
+.project_cards{
+    height: 100%;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
