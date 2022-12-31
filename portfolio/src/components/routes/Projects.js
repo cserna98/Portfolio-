@@ -30,9 +30,7 @@ const [repos,SetRepos] = useState([]);
           <h2>working on</h2>
           <div className='Disp_flex project_cards'>
           {repos.map((e)=>(
-             <ProjectCard key={e.id} Project={e}/>
-                      
-           
+            <ProjectCard key={e.id} Project={e}/>
           ))} 
           </div>             
         </div>
@@ -41,18 +39,13 @@ const [repos,SetRepos] = useState([]);
         <div className="Disp_flex projectState">
           <h2>finalized</h2>
           <div className='Disp_flex project_cards'>
-          {repos.map((e)=>(            
-            <div key={e.id} className="project">
-              <h3>{e.name}</h3>
-              <p>Creation date: {e.created_at}</p>
-              <p>Change date: {e.pushed_at}</p>            
-            </div> 
-          ))} 
+          {repos.map((e)=>(
+            <ProjectCard key={e.id} Project={e}/>                     
+          ))}            
           </div>             
         </div>     
 
-        </div>
-           
+        </div>           
       </main>
     );
   }
