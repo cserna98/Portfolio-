@@ -2,16 +2,30 @@
 /*--------------------------typography-----------------------*/
 :root {
     --font-primary: 'Roboto', sans-serif;
-    --font-secondary: 'Times New Roman', sans-serif;   
+    --font-secondary: 'Times New Roman', sans-serif; 
+    --Font: #0F1D44;
+    --color2: #30698C;
+    --color3: #EBF2F2;
+    --fondo: #F3FDFF;
+    --color5: #AABDB9; 
 }  
+/*--Font: #0F1D44;
+    --color2: #30698C;
+    --color3: #EBF2F2;
+    --fondo: #F3FDFF;
+    --color5: #AABDB9;  */
 
+body{
+    background-color: var(--fondo);
+    color: #397362;
+}
 /*-----------------------------main----------------------------*/
 main{    
     margin: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
     height: auto;
-    align-items: center;   
+    align-items: center;     
 }
 
 .colum{
@@ -25,12 +39,13 @@ main{
 nav {   
     justify-content: space-around;
     align-items: center;
-    top: 25px;
+    top: 0;
     left: 0;
     height: 50px;
     position: fixed;
     width: 100%; 
-    background-color:transparent;     
+    background-color:var(--color5);     
+    border: 2px solid;
 }
 
 ul{
@@ -49,13 +64,12 @@ a{
 nav li:hover {    
     font-size: larger;
     padding: 5px;
-    background-color: #adcdf071;
+    background-color: var(--color5);
     border: 2px solid rgb(175, 175, 224);
     border-radius: 5px;
 }
 
-.logo{
-    background-color: aqua;
+.logo{    
     margin-top: 10%;
 }
 
@@ -68,19 +82,39 @@ nav li:hover {
 .description{
     flex-direction: column;     
     margin-top: 50px;  
+    width: 50%;   
 }
 
 h1{
     font-size: 2cm;
     font-family: var(--font-primary);
-    width: 50%;
+    width: 100%;
+    color: var(--Font);
     
 }
 
 .descriptionText{
     font-family: var(--font-secondary);
     font-size: 0.5cm;
-    width: 50%;
+    width: 100%;
+}
+
+.profilePicture{
+   width: 25%; 
+   justify-content: center;   
+   margin-right: 10%;
+   border: 2px solid;
+   border-radius: 50px;
+   overflow: hidden;
+
+}
+
+.profilePicture img{
+    height: 100%;
+    width: 100%;
+}
+#home{
+    justify-content: space-between;
 }
 
 /*------------------------------------Habilities cards---------------------*/
@@ -152,7 +186,7 @@ form {
 }  
   p {
     font-size: 1.2rem;
-    color: green;
+    
     margin-top: 20px;
   }
 
@@ -165,7 +199,8 @@ position: fixed;
 bottom: 0;
 width: 100%;
 height: 60px; 
-background-color: rgb(210, 228, 243);
+background-color: var(--color5);
+border-top: 2px solid;
 }  
 
 .icons{
