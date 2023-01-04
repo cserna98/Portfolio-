@@ -1,3 +1,4 @@
+import React from 'react';
 import './Styles/Global.css';
 import Home from './components/routes/Home';
 import About from './components/routes/About';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { GlobalContext } from '../utils/global.contex';
 import Habilities from '../habilities/Habilities';
 

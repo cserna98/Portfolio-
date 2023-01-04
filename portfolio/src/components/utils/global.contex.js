@@ -1,3 +1,4 @@
+import React from 'react';
 import { useContext,useEffect,useReducer,createContext, useState} from "react";
 
 export const ContextGlobal = createContext();

@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect,useState } from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -22,7 +23,6 @@ const [isVisible2, setIsVisible2] = useState(false)
   }, []);
 
   console.log(repos)  
-  const options = { year: 'numeric', month: 'long', day: 'numeric' };
 
     return (
       <main className='colum Disp_flex' >
