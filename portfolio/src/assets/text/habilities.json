@@ -1,48 +1,101 @@
 {
-    "SoftSkills":[
-    {
-        "id": 1,
-        "habilitie":"nevedata",
-        "description":"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."    
-    }, 
-    {
-        "id": 2,
-        "habilitie":"vulputate",
-        "description":"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."       
-    },
-    {
-        "id": 3,
-        "habilitie":"maltatate",
-        "description":"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "es":{
+        "SoftSkills":[
+        {
+            "id": 1,
+            "habilitie":"Comunicacion acertiva",
+            "description":"Me considero alguien con buen desarrollo de la comunicación acertiva, me siento en la capacidad de transmitir ideas de manera clara y concisa. A través de la experiencia en servicio al cliente, he aprendido a escuchar activamente a las personas y a entender sus necesidades."    
+        }, 
+        {
+            "id": 2,
+            "habilitie":"Resolucion de problemas",
+            "description":"Siempre me ha sido importante resolver problemas de manera efectiva, ya sea a nivel personal o en el ámbito laboral. Esta habilidad me ha permitido adaptarme a diferentes situaciones y buscar  soluciones creativas a problemas."       
+        },
+        {
+            "id": 3,
+            "habilitie":"Adaptabilidad",
+            "description":"La adaptabilidad también es una habilidad que he desarrollado a lo largo de mi vida, creci en diferentes lugares, practique diferentes deportes lo que me ha permitido trabajar en diferentes entornos y con personas de diferentes perfiles. Esto me ha enseñado a ser flexible y a adaptarme rápidamente a nuevas situaciones."
+        },
+        {
+            "id": 4,
+            "habilitie":"Gestion Emocional",
+            "description":"He desarrollado la habilidad de gestión emocional a través de la práctica de meditación diaria y la auto observacionjava script es una habilidad dura . Esto me ha permitido mantener una actitud positiva en momentos de estrés y tomar decisiones de manera racional. "       
+        }         
+        ],
+        "hardSkills":[
+        {
+            "id": 1,
+            "habilitie":"JavaScript",
+            "description":"Aprendí JavaScript un poco por mi cuenta y luego en Digital House reforcé  mis conocimientos y aprendí nuevas cosas con pequeñas prácticas durante la cursada en esta escuela.",
+            "proyectos":[]
+            },
+        {
+            "id": 2,
+            "habilitie":"React",
+            "description":"Aprendí React en Digital House y he trabajado en varios proyectos utilizando esta librería de JavaScript. Me gusta su enfoque en el desarrollo de aplicaciones basadas en componentes y cómo facilita la creación de aplicaciones web modernas y escalables",
+            "proyectos":[]
+        },
+        {
+            "id": 3,
+            "habilitie":"Java",
+            "description":"Aprendí Java durante mi cursada en Digital House, donde me enseñaron la sintaxis y la lógica de este lenguaje de programación, aprendi el paradigma orientado a objetos para crear aplicaciones modulares",
+            "proyectos":[]
+        },
+        {
+            "id": 4,
+            "habilitie":"Spring boot",
+            "description":"Aprendí Spring boot durante mi cursada en Digital House, donde me enseñaron a utilizar esta herramienta para crear aplicaciones web con Java. "       
+        }      
+        ]
     },
 
-    {
-        "id": 4,
-        "habilitie":"patateta",
-        "description":"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."       
-    }      
-],
-    "hardSkills":[
-    {
-        "id": 1,
-        "habilitie":"nevedata",
-        "description":"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."        
-    }, 
-    {
-        "id": 2,
-        "habilitie":"vulputate",
-        "description":"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."        
-    },
-    {
-        "id": 3,
-        "habilitie":"maltatate",
-        "description":"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-
-    {
-        "id": 4,
-        "habilitie":"patateta",
-        "description":"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."       
-    }      
+    "en":{
+        "SoftSkills":[
+            {
+            "id": 1,
+            "habilitie":"Effective communication",
+            "description":"I consider myself someone with good development of effective communication, I feel capable of transmitting ideas in a clear and concise way. Through experience in customer service, I have learned to actively listen to people and understand their needs."
+            },
+            {
+            "id": 2,
+            "habilitie":"Problem-solving",
+            "description":"It has always been important to me to solve problems effectively, whether on a personal or work level. This skill has allowed me to adapt to different situations and find creative solutions to problems."
+            },
+            {
+            "id": 3,
+            "habilitie":"Adaptability",
+            "description":"Adaptability is also a skill I have developed throughout my life, growing up in different places, practicing different sports has allowed me to work in different environments and with people of different profiles. This has taught me to be flexible and quickly adapt to new situations."
+            },
+            {
+                "id": 4,
+                "habilitie":"Emotional management",
+                "description":"I have developed the skill of emotional management through the practice of daily meditation and self-observation. This has allowed me to maintain a positive attitude in times of stress and make rational decisions."       
+            }   
+        ],
+        "hardSkills":[
+        {
+            "id": 1,
+            "habilitie":"JavaScript",
+            "description":"I learned JavaScript on my own and then reinforced my knowledge at Digital House, where I learned new things through small practices during my time there.",
+            "proyectos":[]
+        },
+        {
+            "id": 2,
+            "habilitie":"React",
+            "description":"I learned React at Digital House and have worked on several projects using this JavaScript library. I like its focus on component-based development and how it facilitates the creation of modern, scalable web applications",
+            "proyectos":[]
+        },
+        {
+            "id": 3,
+            "habilitie":"Java",
+            "description":"I learned Java during my course at Digital House, where I was taught the syntax and logic of this programming language, and learned the object-oriented paradigm to create modular applications",
+            "proyectos":[]
+        },
+        {
+            "id": 4,
+            "habilitie":"Spring boot",
+            "description":"I learned Spring boot during my course at Digital House, where I was taught how to use this tool to create web applications with Java. "       
+        }      
     ]
     }
+}

@@ -7,6 +7,8 @@
     --color2: #30698C;
     --hover: rgba(231, 246, 253, 0.8);
     --fondo: #F3FDFF;
+    --fondo2: #f9feff;
+    --bar:rgb(245, 255, 255);
     --color5: #AABDB9; 
 }  
 /*--Font: #0F1D44;
@@ -16,7 +18,7 @@
     --color5: #AABDB9;  */
 
 body{
-    background-color: var(--fondo);
+    background-color: var(--fondo3);
     color: #397362;
 }
 /*-----------------------------main----------------------------*/
@@ -25,7 +27,8 @@ main{
     margin-top: 100px;
     margin-bottom: 100px;
     height: auto;
-    align-items: center;     
+    align-items: center;
+    justify-content: center;     
 }
 
 .colum{
@@ -61,9 +64,11 @@ ul{
 li{   
     list-style: none; 
     margin: 10%;
+    height: 100%;
+    width: 100%;
 }
 
-nav li:hover {    
+.routes:hover {    
     font-size: larger;
     padding: 5px;
     background-color: var(--hover);
@@ -71,12 +76,23 @@ nav li:hover {
     border-radius: 5px;
 }
 
+#language_changer{ 
+    align-items: center;
+    justify-content: center; 
+    height: 100%;    
+}
+
+.leguajeItem{
+    object-fit: cover; 
+    height: 50%;
+}
+
 .logo{    
     margin-top: 10%;
 }
 
 .nav{
-    background-color: var(--color3);
+    background-color: var(--bar);
 }
 
 /*---------------------------------Home Component--------------------------------*/
@@ -91,8 +107,7 @@ h1{
     font-size: 2cm;
     font-family: var(--font-primary);
     width: 100%;
-    color: var(--Font);
-    
+    color: var(--Font);    
 }
 
 .descriptionText{
@@ -119,31 +134,6 @@ h1{
     justify-content: space-between;
 }
 
-/*------------------------------------Habilities cards---------------------*/
-
-.Habilities{        
-    justify-content: space-around;            
-}
-.skills{
-    align-items: center;
-}
-
-.cards{
-    margin: 25px;
-    border-radius: 15px;
-    padding: 25px;
-    overflow: hidden;
-    text-overflow: ellipsis;     
-}
-
-.cards:hover{
-background-color: rgba(231, 246, 253, 0.8); ;
-justify-content: space-between;
-}
-h2{
-    color: var(--Font);
-}
-
 /*--------------------------------------------About--------------------------------------------------*/
 .curriculum{    
     width: 40%;
@@ -155,6 +145,41 @@ h2{
     height: 100%;
     border-radius: 5%;
 }
+#skills_title{
+    font-size: 1.5cm;
+    background-color: var(--bar);    
+    justify-content: center;
+}
+
+/*------------------------------------Habilities cards---------------------*/
+
+.Habilities{        
+    justify-content: space-around;             
+}
+.skills{
+    align-items: center;
+    width: 100%;    
+}
+
+.cards{
+    margin: 25px;
+    border-radius: 15px;
+    padding: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;      
+}
+
+.cards:hover{
+background-color: rgba(231, 246, 253, 0.8); ;
+justify-content: space-between;
+}
+h2{
+    color: var(--Font);
+    font-size:0.5cm;
+    
+}
+
+
 
 /*-------------------- estilos formulario contact -----------------------*/
 
@@ -197,7 +222,7 @@ form {
   }
   
   button:hover {
-    background-color: var(--color5);
+    background-color: var(--hover);
 }  
   p {
     font-size: 1.2rem;
