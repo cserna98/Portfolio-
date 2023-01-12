@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio-/build/static/css/main.6696c066.css",
-    "main.js": "/Portfolio-/build/static/js/main.80bafee9.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-/build/static/js/787.1ed0c42c.chunk.js",
-    "static/media/profile.jpg": "/Portfolio-/build/static/media/profile.1db761d788ca21809c31.jpg",
-    "static/media/CristianSernaLópez.pdf": "/Portfolio-/build/static/media/CristianSernaLópez.c1f54d60a3fae243e774.pdf",
-    "static/media/reino-unido.png": "/Portfolio-/build/static/media/reino-unido.b9a2ba74e5f8a55977e7.png",
-    "static/media/instagram.png": "/Portfolio-/build/static/media/instagram.edb90ecc706a7a25542b.png",
-    "static/media/github.png": "/Portfolio-/build/static/media/github.22cfdd1cba253783ce51.png",
-    "static/media/gorjeo.png": "/Portfolio-/build/static/media/gorjeo.8e65601e69067aadfe55.png",
-    "static/media/espa.png": "/Portfolio-/build/static/media/espa.7ab20088ad372c62ab72.png",
-    "index.html": "/Portfolio-/build/index.html",
-    "main.6696c066.css.map": "/Portfolio-/build/static/css/main.6696c066.css.map",
-    "main.80bafee9.js.map": "/Portfolio-/build/static/js/main.80bafee9.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio-/build/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Portfolio-/static/css/main.6696c066.css",
+    "main.js": "/Portfolio-/static/js/main.7fdc3722.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile.jpg": "/Portfolio-/static/media/profile.1db761d788ca21809c31.jpg",
+    "static/media/CristianSernaLópez.pdf": "/Portfolio-/static/media/CristianSernaLópez.c1f54d60a3fae243e774.pdf",
+    "static/media/reino-unido.png": "/Portfolio-/static/media/reino-unido.b9a2ba74e5f8a55977e7.png",
+    "static/media/instagram.png": "/Portfolio-/static/media/instagram.edb90ecc706a7a25542b.png",
+    "static/media/github.png": "/Portfolio-/static/media/github.22cfdd1cba253783ce51.png",
+    "static/media/gorjeo.png": "/Portfolio-/static/media/gorjeo.8e65601e69067aadfe55.png",
+    "static/media/espa.png": "/Portfolio-/static/media/espa.7ab20088ad372c62ab72.png",
+    "index.html": "/Portfolio-/index.html",
+    "main.6696c066.css.map": "/Portfolio-/static/css/main.6696c066.css.map",
+    "main.7fdc3722.js.map": "/Portfolio-/static/js/main.7fdc3722.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6696c066.css",
-    "static/js/main.80bafee9.js"
+    "static/js/main.7fdc3722.js"
   ]
 }
