@@ -11,7 +11,7 @@ function Card({habilitie}) {
 
     return (
       <div className="cards">
-        <h2>{habilitie.habilitie}</h2>
+        <h3 className="title">{habilitie.habilitie}</h3>
                 {showFullContent ? (
                 <p>{habilitie.description}</p>
                 ) : (<p>{habilitie.description.substring(0, 80)}</p>)

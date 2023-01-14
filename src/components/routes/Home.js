@@ -24,7 +24,7 @@ function Home() {
       <>
       <main className='Disp_flex' id='home'>
         <div className="description Disp_flex">
-        <h1>{homecontent.title}</h1>
+        <h1 className="title">{homecontent.title}</h1>
         <p className="descriptionText">{homecontent.paragraph}</p>        
       </div>
       <div className="profilePicture">

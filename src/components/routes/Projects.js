@@ -28,12 +28,12 @@ const [isVisible2, setIsVisible2] = useState(false)
 
     return (
       <main className='colum Disp_flex' >
-        <h2>{language == 'es' ?("Proyectos"):("Projects")}</h2>
+        <h2 className="title">{language == 'es' ?("Proyectos"):("Projects")}</h2>
       
         <div  className="Disp_flex projects"> 
 
           <div className={`Disp_flex projectState ${isVisible ? 'visible colum' : 'hidden'}`}>
-            <h2>{language == 'es' ?("En desarrollo"):("Working on")}</h2>                
+            <h2 className="title">{language == 'es' ?("En desarrollo"):("Working on")}</h2>                
               {isVisible && (
                 <div className='Disp_flex project_cards'>
                   {repos.map((e)=>(
@@ -50,7 +50,7 @@ const [isVisible2, setIsVisible2] = useState(false)
 
 
           <div className={`Disp_flex projectState ${isVisible2 ? 'visible colum' : 'hidden'}`} >
-            <h2>{language == 'es' ?("Finalizados"):("finalized")}</h2>           
+            <h2 className="title">{language == 'es' ?("Finalizados"):("finalized")}</h2>           
               {isVisible2 && (
                 <div className='Disp_flex project_cards'>
                   {repos.map((e)=>(

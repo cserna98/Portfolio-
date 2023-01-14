@@ -18,10 +18,10 @@ const NavBar = ()=>{
                 <img className="logo" />               
                 <ul className=" Disp_flex">
                     <li className='routes'>
-                        <Link to="/">Home</Link>
+                        <Link to="/">{language == 'es' ?("Inicio"):("Home")}</Link>
                     </li>
                     <li className='routes'>
-                        <Link to="/about">About</Link>
+                        <Link to="/about">{language == 'es' ?("Acerca de mi"):("About")}</Link>
                     </li>
                     <li className='routes'>
                         <Link to="/projects">Projects</Link>

@@ -38,22 +38,22 @@ function Contact() {
 
     
   return (
-    <div>
-       <form onSubmit={handleSubmit}>
+  <main className="wpcf7 Disp_flex">
+    <form onSubmit={handleSubmit} className="wpcf7-form Disp_flex colum" >
       <label htmlFor="name">{language == 'es' ?("Nombre: "):("Name: ")}</label>
       <input  placeholder={language == 'es' ?("Ingrese su nombre "):("Enter your name ")} type="text" id="name" name="name" />
-      <br />
+      
       <label htmlFor="email">{language == 'es' ?("Correo electronico : "):("Email ")}</label>
       <input placeholder={language == 'es' ?("Ingrese su correo "):("Enter your Email ")} type="email" id="email" name="email" />
-      <br />
+      
       <label htmlFor="message">{language == 'es' ?("Mensaje "):("Message")}</label>
       <textarea id="message" name="message" />
-      <br />
+      
       <button type="submit">{language == 'es' ?("Enviar"):("Submit")}</button>
       {message && <p>{message}</p>}
       {error && <p>{error}</p>}
-      </form>      
-    </div>
+    </form>      
+  </main>
    
 );
 }

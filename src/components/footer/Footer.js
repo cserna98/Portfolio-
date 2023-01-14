@@ -7,7 +7,7 @@ import InstagramIcon from '../../assets/images/instagram.png';
 function Footer() {
   return (
     <footer className='Disp_flex'>
-      <ul>
+      <ul className='Disp_flex'>
         <li>
           <a href="https://twitter.com/tu_perfil">
             <img  className='icons' src={TwitterIcon} alt="Twitter" />

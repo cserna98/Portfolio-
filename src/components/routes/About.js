@@ -8,8 +8,10 @@ import paragraphs from '../../assets/text/paragraphs.json'
 
 function About() {
     
-    const {language} = GlobalContext()  
-    const pdfPath = require('../../assets/CristianSernaLópez.pdf'); 
+    const {language} = GlobalContext()    
+    const pdfPath = (language === 'es') ?
+    require('../../assets/Documents/Cristian Serna López(es).pdf') :
+    require('../../assets/Documents/Resume Cristian Serna López(EN).pdf'); 
 
     const [aboutcontent,setaboutcontent] = useState(paragraphs[language].About)
     
@@ -24,14 +26,14 @@ function About() {
       <div className="Disp_flex">
         <div className="description">
           
-          <h1>{aboutcontent.title}</h1>        
+          <h1 className="title">{aboutcontent.title}</h1>        
           <p className="descriptionText">
           {aboutcontent.paragraph}
           </p>         
         </div>
 
         <div className='curriculum Disp_flex colum'>
-          <h2>{language == 'es' ?("Curriculo"):("Curriculum")}</h2>                   
+          <h2 className="title">{language == 'es' ?("Curriculo"):("Curriculum")}</h2>                   
           <object id='pdf'
             onClick={() => window.open(pdfPath, '_blank') }            
             data={pdfPath}>

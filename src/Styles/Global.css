@@ -3,12 +3,13 @@
 :root {
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Times New Roman', sans-serif; 
-    --Font: #0F1D44;
+    --FontTitle: #0F1D44;
     --color2: #30698C;
     --hover: rgba(231, 246, 253, 0.8);
     --fondo: #F3FDFF;
     --fondo2: #f9feff;
-    --bar:rgb(245, 255, 255);
+    --bar:rgb(235, 242, 242);
+    --fontColor:rgb(57, 115, 98);
     --color5: #AABDB9; 
 }  
 /*--Font: #0F1D44;
@@ -19,7 +20,12 @@
 
 body{
     background-color: var(--fondo3);
-    color: #397362;
+    color: var(--fontColor);
+    font-family: var(--Font); 
+}
+
+.title{
+    color: #0F1D44;
 }
 /*-----------------------------main----------------------------*/
 main{    
@@ -46,8 +52,9 @@ nav {
     left: 0;
     height: 50px;
     position: fixed;
-    width: 100%;   
-    background-color:var(--fondo);
+    width: 100%;     
+    overflow: hidden;
+    background-color:var(--bar);
 }
 
 a{
@@ -56,16 +63,17 @@ a{
     text-decoration: none;
 }
 
-ul{
-    display: flex;
-    justify-content: space-between;    
+ul{    
+    position: absolute;
+    justify-content: center; 
+    width: auto;    
 }
-
 li{   
-    list-style: none; 
+    list-style: none;    
     margin: 10%;
     height: 100%;
     width: 100%;
+    white-space: nowrap;    
 }
 
 .routes:hover {    
@@ -79,7 +87,8 @@ li{
 #language_changer{ 
     align-items: center;
     justify-content: center; 
-    height: 100%;    
+    height: 100%; 
+    float: right;    
 }
 
 .leguajeItem{
@@ -106,8 +115,7 @@ li{
 h1{
     font-size: 2cm;
     font-family: var(--font-primary);
-    width: 100%;
-    color: var(--Font);    
+    width: 100%;   
 }
 
 .descriptionText{
@@ -123,7 +131,6 @@ h1{
    border: 2px solid;
    border-radius: 50px;
    overflow: hidden;
-
 }
 
 .profilePicture img{
@@ -146,9 +153,12 @@ h1{
     border-radius: 5%;
 }
 #skills_title{
-    font-size: 1.5cm;
-    background-color: var(--bar);    
+    font-size: 1.5cm;      
     justify-content: center;
+}
+
+#skills{
+border-top: solid #0F1D44;
 }
 
 /*------------------------------------Habilities cards---------------------*/
@@ -160,6 +170,9 @@ h1{
     align-items: center;
     width: 100%;    
 }
+.skills h2{
+    font-size: 1cm
+}
 
 .cards{
     margin: 25px;
@@ -170,44 +183,54 @@ h1{
 }
 
 .cards:hover{
-background-color: rgba(231, 246, 253, 0.8); ;
+background-color: rgba(231, 246, 253, 0.5); ;
 justify-content: space-between;
 }
-h2{
-    color: var(--Font);
-    font-size:0.5cm;
-    
+
+h2{    
+    font-size:0.5cm;    
 }
 
 
 
-/*-------------------- estilos formulario contact -----------------------*/
+
+/*-------------------- Estilos formulario contact -----------------------*/
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    margin-top: 150px;
-  }
-  
+    background-color: #ffffff;
+    border: 3px solid var(--fontColor);
+    box-shadow: 15px 15px 15px 10px rgba(235, 242, 242, 2);
+    padding: 2em;
+    overflow: none !important;
+    height: 80%;
+    width: 80%;
+    justify-content: space-between;
+  }  
   label {
     font-size: 1.2rem;
     margin-bottom: 10px;
+
   }
-  
-  input,
+  .wpcf7{       
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+     /* Color de fondo */
+    }
+
+     input,
   textarea {
+    background-color: transparent ;
+    border-bottom: 1px solid #001;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    margin-bottom: 40px;
+	outline: none;
+	transition: 0.4s border;
     width: 100%;
-    padding: 10px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
     
   }
   
@@ -215,15 +238,11 @@ form {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color:transparent;
-    color: black;
+    background-color:transparent;    
     font-size: 1.2rem;
     cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: var(--hover);
-}  
+  }  
+
   p {
     font-size: 1.2rem;
     
@@ -239,7 +258,7 @@ position: fixed;
 bottom: 0;
 width: 100%;
 height: 60px; 
-background-color: var(--fondo);
+background-color: var(--bar);
 }  
 
 .icons{
@@ -262,7 +281,7 @@ background-color: var(--fondo);
     margin: 5px;    
     border-radius: 15px;
     padding: 25px;       
-    border: 2px solid rgb(175, 175, 224);   
+    border: 2px solid var(--fontColor);   
     overflow: hidden;  
     text-overflow: ellipsis;  
 }
@@ -271,7 +290,7 @@ background-color: var(--fondo);
     border-radius: 15px;  
     width: 100%;        
     align-items: center;
-    border: 2px solid rgb(175, 175, 224);    
+    border: 2px solid var(--fontColor);    
     padding: 15px;  
     margin-top: 30px;    
 }
