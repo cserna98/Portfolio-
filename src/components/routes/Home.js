@@ -5,6 +5,7 @@ import paragraphs from '../../assets/text/paragraphs.json'
 import { text } from '@fortawesome/fontawesome-svg-core';
 import { GlobalContext } from '../utils/global.contex';
 
+
 function Home() {
   
   const {language} = GlobalContext()
@@ -29,6 +30,7 @@ function Home() {
       </div>
       <div className="profilePicture">
         <img src={profilePicture} ></img>
+          
       </div>      
       </main>      
       </>
