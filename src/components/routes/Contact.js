@@ -2,7 +2,7 @@ import React from 'react';
 import  { useState } from 'react';
 import SendEmail from '../SendEmail/SendEmail';
 import { GlobalContext } from '../utils/global.contex';
-
+import styles from './Contact.module.css';
 
 
 function Contact() {
@@ -38,16 +38,16 @@ function Contact() {
 
     
   return (
-  <main className="wpcf7 Disp_flex">
-    <form onSubmit={handleSubmit} className="wpcf7-form Disp_flex colum" >
+  <main className={styles.main}>
+    <form onSubmit={handleSubmit} className={styles.wpcf7Form} >
       <label htmlFor="name">{language == 'es' ?("Nombre: "):("Name: ")}</label>
-      <input  placeholder={language == 'es' ?("Ingrese su nombre "):("Enter your name ")} type="text" id="name" name="name" />
+      <input  placeholder={language == 'es' ?("Ingrese su nombre "):("Enter your name ")} type="text" id={styles.name} name="name" />
       
       <label htmlFor="email">{language == 'es' ?("Correo electronico : "):("Email ")}</label>
-      <input placeholder={language == 'es' ?("Ingrese su correo "):("Enter your Email ")} type="email" id="email" name="email" />
+      <input placeholder={language == 'es' ?("Ingrese su correo "):("Enter your Email ")} type="email" id={styles.email} name="email" />
       
       <label htmlFor="message">{language == 'es' ?("Mensaje "):("Message")}</label>
-      <textarea id="message" name="message" />
+      <textarea id={styles.message} name="message" />
       
       <button type="submit">{language == 'es' ?("Enviar"):("Submit")}</button>
       {message && <p>{message}</p>}

@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './ProjectCard.module.css';
 import { useEffect,useState } from 'react';
 
 function ProjectCard({Project}) {
@@ -19,7 +20,7 @@ const formattedcreated_at = created_at.toLocaleDateString('es-ES', options);
 const formattedpushed_at = pushed_at.toLocaleDateString('es-ES', options);
 
   return (
-    <div className="project">
+    <div className={styles.project}>
       <h3>{Project.name}</h3>      
         <div>
           <p>language: {Project.language}</p>

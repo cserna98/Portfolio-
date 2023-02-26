@@ -235,17 +235,11 @@ form {
   }
   
   button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color:transparent;    
-    font-size: 1.2rem;
-    cursor: pointer;
+   
   }  
 
   p {
     font-size: 1.2rem;
-    
     margin-top: 20px;
   }
 

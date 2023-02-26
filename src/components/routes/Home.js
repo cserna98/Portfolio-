@@ -4,6 +4,8 @@ import About from './About';
 import paragraphs from '../../assets/text/paragraphs.json'
 import { text } from '@fortawesome/fontawesome-svg-core';
 import { GlobalContext } from '../utils/global.contex';
+import styles from './Home.module.css';
+
 
 
 function Home() {
@@ -22,20 +24,16 @@ function Home() {
 
 
     return (
-      <>
-      <main className='Disp_flex' id='home'>
-        <div className="description Disp_flex">
-        <h1 className="title">{homecontent.title}</h1>
+      <main id={styles.home}>
+      <div className={styles.description}>
+        <h1 className={styles.title}>{homecontent.title}</h1>
         <p className="descriptionText">{homecontent.paragraph}</p>        
       </div>
-      <div className="profilePicture">
-        <img src={profilePicture} ></img>
+      <div className={styles.profilePicture}>
+        <img src={profilePicture}  ></img>
           
       </div>      
-      </main>      
-      </>
-      
-      
+      </main>   
     );
   }
 

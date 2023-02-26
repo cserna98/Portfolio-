@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { useState } from 'react';
 import { GlobalContext } from '../utils/global.contex';
+import styles from './Cards.module.css';
 
 
 
@@ -10,13 +11,13 @@ function Card({habilitie}) {
     const [showFullContent, setShowFullContent] = useState(false);     
 
     return (
-      <div className="cards">
-        <h3 className="title">{habilitie.habilitie}</h3>
+      <div className={styles.cards}>
+        <h3 className={styles.title}>{habilitie.habilitie}</h3>
                 {showFullContent ? (
                 <p>{habilitie.description}</p>
                 ) : (<p>{habilitie.description.substring(0, 80)}</p>)
                 }                
-                <button onClick={()=>setShowFullContent(!showFullContent)}>{showFullContent ? (
+                <button className={styles.button} onClick={()=>setShowFullContent(!showFullContent)}>{showFullContent ? (
                   (language == 'es' ?("...ver menos"):("...View less"))
                   ):(language == 'es' ?("...ver mas"):("...View more"))
                   }

@@ -1,0 +1,23 @@
+:root {
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Times New Roman', sans-serif; 
+    --FontTitle: #0F1D44;
+    --color2: #30698C;
+    --hover: rgba(231, 246, 253, 0.8);
+    --fondo: #F3FDFF;
+    --fondo2: #f9feff;
+    --bar:rgb(235, 242, 242);
+    --fontColor:rgb(57, 115, 98);
+    --color5: #AABDB9; 
+}  
+
+body{
+    background-color: var(--fondo3);
+    color: var(--fontColor);
+    font-family: var(--Font); 
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }

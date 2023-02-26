@@ -2,6 +2,7 @@ import {React, useState, useEffect} from 'react';
 import Card from '../Cards/Cards'
 import habilities from '../../assets/text/habilities.json'
 import { GlobalContext } from '../utils/global.contex';
+import styles from './Habilities.module.css';
 
 
 
@@ -21,12 +22,13 @@ function Habilities() {
       ,[language])
 
 return (
-    <main  id="skills" className='colum Disp_flex'>
-        <h1 id='skills_title' className='Disp_flex title'>{language == 'es' ?("Habilidades"):("Skills")}</h1>
-        <div className="Habilities Disp_flex">
+    <main  id={styles.skills} >
+
+        <h1 id={styles.skills_title} className={styles.title}>{language == 'es' ?("Habilidades"):("Skills")}</h1>
         
-            <div id='SoftSkills' className="Disp_flex colum skills">
-                <h2 className="title">{language == 'es' ?("Habilidades Blandas"):("Soft Skills")}</h2>
+        <div className={styles.Habilities}>
+            <div id={styles.SoftSkills} className={styles.skills}>
+                <h2 className={styles.title}>{language == 'es' ?("Habilidades Blandas"):("Soft Skills")}</h2>
                 <div>
                 {SoftSkills.map((e)=>{
                 return (<Card key={e.id} habilitie={e}/> )
@@ -34,16 +36,17 @@ return (
                 </div>
             </div>
 
-            <div id='HardSkills' className="Disp_flex colum skills">
-                <h2 className="title">{language == 'es' ?("Habilidades Tecnicas"):("Hard Skills")}</h2>
+            <div id={styles.HardSkills} className={styles.skills}>
+                <h2 className={styles.title}>{language == 'es' ?("Habilidades Tecnicas"):("Hard Skills")}</h2>
                 <div>
                 {hardSkills.map((e)=>{
                 return  (<Card key={e.id} habilitie={e}/> )
                 })}
                 </div>
-                
             </div>
+
         </div>
+        
     </main>
     
   );

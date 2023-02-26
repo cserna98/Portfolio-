@@ -1,0 +1,27 @@
+.Habilities{        
+    justify-content: space-around; 
+    display: flex;            
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;    
+}
+.skills h2{
+    font-size: 1cm
+}
+
+
+
+h2{    
+    font-size:0.5cm;    
+}
+
+#skills{
+border-top: solid #0F1D44;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}

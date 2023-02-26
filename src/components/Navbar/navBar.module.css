@@ -1,0 +1,60 @@
+nav{
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;     
+    overflow: hidden;
+    background-color: var(--bar);
+}
+
+a{
+    color: #0F1D44;
+    font-family: var(--font-primary);
+    text-decoration: none;
+}
+
+ul{ 
+    display: flex;   
+    position: absolute;
+    justify-content: center; 
+    width: auto;    
+}
+
+li{   
+    list-style: none;    
+    margin: 10%;
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;    
+}
+
+.routes:hover {    
+    font-size: larger;
+    padding: 5px;
+    background-color: var(--hover);
+    border: 2px solid var(--hover);
+    border-radius: 5px;
+}
+
+#language_changer{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+    float: right;    
+}
+
+.leguajeItem{
+    object-fit: cover; 
+    height: 50%;
+}
+
+.logo{
+    margin: 0;    
+    height: 80%;
+    margin-right: 70%;
+}

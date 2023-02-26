@@ -1,0 +1,43 @@
+.description{
+    display: flex;
+    flex-direction: column;     
+    margin-top: 5vh;  
+    width: 50%;   
+}
+
+.title{
+    font-size: 8vh;
+    font-family: var(--font-primary);
+    width: 100%;   
+}
+
+
+
+.descriptionText{
+    font-family: var(--font-secondary);
+    font-size: 0.5cm;
+    width: 100%;
+}
+
+.profilePicture{
+   width: 25%; 
+   justify-content: center;   
+   margin-right: 10%;
+   border: 2px solid;
+   border-radius: 50px;
+   overflow: hidden;
+}
+
+.profilePicture img{
+    height: 100%;
+    width: 100%;
+}
+#home{
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}

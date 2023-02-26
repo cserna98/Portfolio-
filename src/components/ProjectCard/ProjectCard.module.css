@@ -1,0 +1,10 @@
+.project{    
+    height: auto;
+    width: 45%;
+    margin: 5px;    
+    border-radius: 15px;
+    padding: 25px;       
+    border: 2px solid var(--fontColor);   
+    overflow: hidden;  
+    text-overflow: ellipsis;  
+}
