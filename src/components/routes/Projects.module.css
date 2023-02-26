@@ -35,12 +35,12 @@ main{
     margin-top: 30px;    
 }
 
+
 .projectCards{
     display: grid;
+    justify-content: center;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
     height: 100%;
-    margin-left: 20%;
 }
 
 .btnUp{
