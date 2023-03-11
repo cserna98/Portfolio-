@@ -73,7 +73,7 @@ const [isVisible2, setIsVisible2] = useState(false)
                 <div className={styles.projectCards}>
                   {mergerepos.map((e)=>(
                    <div key={e.id}>
-                    {e.finalized ?  null : (<ProjectCard key={e.id} project={e}/>)}
+                    {e.finalized ?  null : (<ProjectCard key={e.id} Project={e}/>)}
                   </div>
                     
                   ))}
