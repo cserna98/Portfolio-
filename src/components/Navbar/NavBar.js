@@ -6,6 +6,7 @@ import english_Icon from '../../assets/images/reino-unido.png'
 import { GlobalContext } from '../utils/global.contex';
 import logo from "../../assets/images/logo.png"
 import '../../syles.variable/variables.css'
+import Switch from '@mui/material/switch';
 
 
 
@@ -37,7 +38,7 @@ const NavBar = ()=>{
                 </ul>
                 <div id={styles.language_changer} className={styles.Disp_flex} >
                 <img className={styles.leguajeItem}  src={español_Icon}/>
-                <button
+                <Switch
                     checked={language === 'en'}
                     onChange={languageChanger}
                     value="language"

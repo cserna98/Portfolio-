@@ -24,16 +24,13 @@ function Home() {
 
 
     return (
-      <main id={styles.home}>
       <div className={styles.description}>
         <h1 className={styles.title}>{homecontent.title}</h1>
-        <p className="descriptionText">{homecontent.paragraph}</p>        
-      </div>
-      <div className={styles.profilePicture}>
-        <img src={profilePicture}  ></img>
-          
+        <p className={styles.descriptionText}>{homecontent.paragraph}</p>        
+        <div className={styles.profilePicture}>
+          <img src={profilePicture}  ></img>
+        </div>   
       </div>      
-      </main>   
     );
   }
 
