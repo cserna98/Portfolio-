@@ -50,14 +50,16 @@ const [isVisible2, setIsVisible2] = useState(false)
           <div className={`${styles.projectState} ${isVisible ? styles.visible  : styles.hidden}`}>
             <h2 className={styles.title}>{language == 'es' ?("En desarrollo"):("Working on")}</h2>                
               {isVisible && (
-                <div className={styles.projectCards} >
-                  {mergerepos.map((e)=>(
-                   <div className={styles.cardRender} key={e.id}>
-                    {e.finalized ? (<ProjectCard key={e.id} Project={e}/>) : null}
-                  </div>
-                    
-                  ))}
-                </div> 
+                <div>
+                {mergerepos.map((e) => (
+                  e.finalized ? (
+                    <div className={styles.cardRender} key={e.id}>
+                      <ProjectCard key={e.id} Project={e} />
+                    </div>
+                  ) : null
+                ))}
+              </div>
+                
               )}
             <button 
             onClick={() => setIsVisible(!isVisible)}

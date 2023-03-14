@@ -6,7 +6,7 @@ import english_Icon from '../../assets/images/reino-unido.png'
 import { GlobalContext } from '../utils/global.contex';
 import logo from "../../assets/images/logo.png"
 import '../../syles.variable/variables.css'
-import Switch from '@mui/material/switch';
+
 
 
 
@@ -36,17 +36,19 @@ const NavBar = ()=>{
                                             
                     </li>                 
                 </ul>
-                <div id={styles.language_changer} className={styles.Disp_flex} >
-                <img className={styles.leguajeItem}  src={español_Icon}/>
-                <Switch
+                <button
+                    id={styles.language_changer}
+                    className={styles.Disp_flex} 
                     checked={language === 'en'}
-                    onChange={languageChanger}
+                    onClick={languageChanger}
                     value="language"
                     color="primary"
                     inputProps={{ 'aria-label': 'primary checkbox' }}                    
-                    />    
-                    <img className={styles.leguajeItem}  src={english_Icon}/>                     
-                </div>                 
+                    > {language === 'en' ? <img className={styles.leguajeItem} src={español_Icon} /> 
+                    :
+                        <img className={styles.leguajeItem} src={english_Icon} />
+                    }    
+                    </button>                                   
             </nav>       
     )
 

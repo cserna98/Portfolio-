@@ -6,9 +6,10 @@
     --hover: rgba(231, 246, 253, 0.8);
     --fondo: #F3FDFF;
     --fondo2: #f9feff;
-    --bar:rgb(235, 242, 242);
-    --fontColor:rgb(57, 115, 98);
-    --color5: #AABDB9; 
+    --bar:#838383;
+    --Font:#2E2A24;
+    --color5: #c0cac7; 
+    --fontColor:#2E2A24;
 }  
 
 body{

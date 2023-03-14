@@ -1,10 +1,33 @@
 .project{    
     height: auto;
-    width: 100%;
     margin: 5px;    
-    border-radius: 15px;
-    padding: 25px;       
+    border-radius: 15px;     
     border: 2px solid var(--fontColor);   
     overflow: hidden;  
     text-overflow: ellipsis;  
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
 }
+
+.info{
+    grid-column: 2;
+}
+
+.name{
+    display: flex;
+    font-size: 1.5vw;
+    align-self: center;
+    justify-content: center;
+}
+
+.imgProject{
+    grid-column : 1;
+    width: 80%;
+    margin: 1vw;
+    border: solid black;
+}
+
+
+
+
+
