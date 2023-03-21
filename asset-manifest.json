@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio-/static/css/main.d02f93d5.css",
-    "main.js": "/Portfolio-/static/js/main.5a5635a7.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-/static/js/787.1ed0c42c.chunk.js",
-    "static/media/profile.jpg": "/Portfolio-/static/media/profile.1db761d788ca21809c31.jpg",
-    "static/media/Resume Cristian Serna López(EN).pdf": "/Portfolio-/static/media/Resume Cristian Serna López(EN).d76bca13b0530ae98855.pdf",
-    "static/media/Cristian Serna López(es).pdf": "/Portfolio-/static/media/Cristian Serna López(es).dbc6568957084036fb8d.pdf",
-    "static/media/reino-unido.png": "/Portfolio-/static/media/reino-unido.b9a2ba74e5f8a55977e7.png",
-    "static/media/instagram.png": "/Portfolio-/static/media/instagram.edb90ecc706a7a25542b.png",
-    "static/media/github.png": "/Portfolio-/static/media/github.22cfdd1cba253783ce51.png",
-    "static/media/gorjeo.png": "/Portfolio-/static/media/gorjeo.8e65601e69067aadfe55.png",
-    "static/media/espa.png": "/Portfolio-/static/media/espa.7ab20088ad372c62ab72.png",
-    "index.html": "/Portfolio-/index.html",
-    "main.d02f93d5.css.map": "/Portfolio-/static/css/main.d02f93d5.css.map",
-    "main.5a5635a7.js.map": "/Portfolio-/static/js/main.5a5635a7.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio-/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.890f9578.css",
+    "main.js": "/static/js/main.3ac7837f.js",
+    "static/js/496.19847c0d.chunk.js": "/static/js/496.19847c0d.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.9d8fdeb76d6f52b457a9.jpg",
+    "static/media/Cristian Serna López(es).pdf": "/static/media/Cristian Serna López(es).d063efa2e6eea5aec8f6.pdf",
+    "static/media/Resume Cristian Serna López(EN).pdf": "/static/media/Resume Cristian Serna López(EN).6b0b8cbc2ab8d9593c5e.pdf",
+    "static/media/reino-unido.png": "/static/media/reino-unido.b9a2ba74e5f8a55977e7.png",
+    "static/media/instagram.png": "/static/media/instagram.edb90ecc706a7a25542b.png",
+    "static/media/github.png": "/static/media/github.22cfdd1cba253783ce51.png",
+    "static/media/gorjeo.png": "/static/media/gorjeo.8e65601e69067aadfe55.png",
+    "static/media/espa.png": "/static/media/espa.7ab20088ad372c62ab72.png",
+    "index.html": "/index.html",
+    "main.890f9578.css.map": "/static/css/main.890f9578.css.map",
+    "main.3ac7837f.js.map": "/static/js/main.3ac7837f.js.map",
+    "496.19847c0d.chunk.js.map": "/static/js/496.19847c0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d02f93d5.css",
-    "static/js/main.5a5635a7.js"
+    "static/css/main.890f9578.css",
+    "static/js/main.3ac7837f.js"
   ]
 }
