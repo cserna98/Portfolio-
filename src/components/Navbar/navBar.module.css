@@ -45,6 +45,7 @@ li{
     justify-content: center; 
     height: 70%; 
     border-radius: 0.5vw;
+    background-color: transparent;
     float: right;    
 }
 

@@ -21,7 +21,7 @@ const [isVisible2, setIsVisible2] = useState(false)
   async function fetchData() {
     const response = await fetch('https://api.github.com/users/cserna98/repos');
     const data = await response.json();   
-    const newdata = data.map(({  id, svn_url, language, name, created_at, pushed_at }) => ({ id, svn_url, language, name, created_at, pushed_at }));
+    const newdata = data.map(({  id, svn_url, language, name, created_at, pushed_at, img }) => ({ id, svn_url, language, name, created_at, pushed_at, img }));
     SetRepos(()=>newdata)
     console.log(repos)  
   }  
@@ -48,7 +48,7 @@ const [isVisible2, setIsVisible2] = useState(false)
         <div  className={styles.projects}> 
 
           <div className={`${styles.projectState} ${isVisible ? styles.visible  : styles.hidden}`}>
-            <h2 className={styles.title}>{language == 'es' ?("En desarrollo"):("Working on")}</h2>                
+            <h2 className={styles.title}>{language == 'es' ?("Finalizados"):("finalized")}</h2>                
               {isVisible && (
                 <div>
                 {mergerepos.map((e) => (
@@ -70,15 +70,16 @@ const [isVisible2, setIsVisible2] = useState(false)
 
 
           <div className={`${styles.projectState} ${isVisible2 ? styles.visible  : styles.hidden}`} >
-            <h2 className={styles.title}>{language == 'es' ?("Finalizados"):("finalized")}</h2>           
+            <h2 className={styles.title}>{language == 'es' ?("En desarrollo"):("Working on")}</h2>           
               {isVisible2 && (
                 <div className={styles.projectCards}>
-                  {mergerepos.map((e)=>(
-                   <div key={e.id}>
-                    {e.finalized ?  null : (<ProjectCard key={e.id} Project={e}/>)}
-                  </div>
-                    
-                  ))}
+                  {mergerepos.map((e) => (
+                  !e.finalized ? (
+                    <div className={styles.cardRender} key={e.id}>
+                      <ProjectCard key={e.id} Project={e} />
+                    </div>
+                  ) : null
+                ))}
                 </div> 
               )}
             <button 

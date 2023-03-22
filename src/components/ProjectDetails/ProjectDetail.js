@@ -18,7 +18,7 @@ const ProjectDetails = ({Project, handleOpen, setOpen,open,formattedcreated_at,f
               <button className={styles.exit}>X</button>
               <h3 className={styles.name}>{Project.name}</h3>  
               <div className={styles.imgProject}>
-                  <img alt='Not yet'/> 
+                  <img src={Project.img} alt='Not yet'/> 
               </div>
               <ul className={styles.info}>
                     <li className={styles.li}>

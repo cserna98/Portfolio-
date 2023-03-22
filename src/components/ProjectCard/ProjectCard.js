@@ -24,7 +24,7 @@ const options = {
   second: 'numeric'
 };
 
-console.log(Project)
+console.log(Project.img)
 
 const formattedcreated_at = created_at.toLocaleDateString('es-ES', options);
 const formattedpushed_at = pushed_at.toLocaleDateString('es-ES', options);
@@ -32,9 +32,8 @@ const formattedpushed_at = pushed_at.toLocaleDateString('es-ES', options);
   return (
     <div className={styles.project}>
       <h3 className={styles.name}>{Project.name}</h3>  
-      <div className={styles.imgProject}>
-        <img alt='Not yet'/> 
-      </div>
+      <img className={styles.imgProject} src={process.env.PUBLIC_URL + Project.img} alt='Not yet'/> 
+  
       <div className={styles.info}>
         <p>Language: {Project.language}</p>
         <p>Link Page: <a href={Project.urlPage} target="_blank" rel="noopener noreferrer">{Project.name}</a></p>

@@ -22,7 +22,8 @@
 
 .imgProject{
     grid-column : 1;
-    width: 80%;
+    width: 15vw;
+    height: 8vw;
     margin: 1vw;
     border: solid black;
 }
