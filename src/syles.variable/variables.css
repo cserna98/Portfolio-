@@ -5,15 +5,16 @@
     --color2: #30698C;
     --hover: transparent;
     --fondo: #F3FDFF;
-    --fondo2: #f9feff;
-    --bar:#838383;
+    --fondo2: #eceff0;
+    --bar:#8d8a8a;
     --Font:#2E2A24;
     --color5: #c0cac7; 
     --fontColor:#2E2A24;
+    --838383: green;
 }  
 
 body{
-    background-color: var(--fondo3);
+    background-color: var(--fondo2);
     color: var(--fontColor);
     font-family: var(--Font); 
 }

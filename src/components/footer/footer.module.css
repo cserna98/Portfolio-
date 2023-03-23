@@ -3,7 +3,8 @@ footer{
     align-items: center;    
     position: fixed;
     bottom: 0;
-    width: 100%;
+    right: 0;
+    width: 100vw;
     height: 60px; 
     background-color: var(--bar);
     justify-content: center;
@@ -19,8 +20,8 @@ footer{
     }
     
     .icons{
-        height: 2vw;
-        width: 2vw;
+        height: 100%;
+        width: 100%;
         justify-content: space-around;
     }
     

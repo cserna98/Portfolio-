@@ -3,11 +3,11 @@
     border-radius: 15px;
     padding: 25px;
     overflow: hidden;
-    text-overflow: ellipsis;      
+    text-overflow: ellipsis;   
 }
 
 .cards:hover{
-background-color: rgba(231, 246, 253, 0.5); ;
+background-color: rgba(195, 196, 197, 0.5); ;
 justify-content: space-between;
 }
 

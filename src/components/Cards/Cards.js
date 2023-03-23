@@ -18,8 +18,8 @@ function Card({habilitie}) {
                 ) : (<p>{habilitie.description.substring(0, 80)}</p>)
                 }                
                 <button className={styles.button} onClick={()=>setShowFullContent(!showFullContent)}>{showFullContent ? (
-                  (language == 'es' ?("...ver menos"):("...View less"))
-                  ):(language == 'es' ?("...ver mas"):("...View more"))
+                  (language == 'es' ?("...ver menos"):("...show less"))
+                  ):(language == 'es' ?("...ver mas"):("...show more"))
                   }
                   </button>
       </div>

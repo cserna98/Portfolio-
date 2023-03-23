@@ -44,7 +44,7 @@ function Contact() {
       <input  placeholder={language == 'es' ?("Ingrese su nombre "):("Enter your name ")} type="text" id={styles.name} name="name" />
       
       <label htmlFor="email">{language == 'es' ?("Correo electronico : "):("Email ")}</label>
-      <input placeholder={language == 'es' ?("Ingrese su correo "):("Enter your Email ")} type="email" id={styles.email} name="email" />
+      <input placeholder={language == 'es' ?("Ingrese su correo "):("Enter your email ")} type="email" id={styles.email} name="email" />
       
       <label htmlFor="message">{language == 'es' ?("Mensaje "):("Message")}</label>
       <textarea id={styles.message} name="message" />

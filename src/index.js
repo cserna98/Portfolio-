@@ -12,7 +12,7 @@ root.render(
 
   <React.StrictMode>
     <ContextProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio-">
       <App />
     </BrowserRouter>  
     </ContextProvider>       

@@ -4,21 +4,21 @@
       "description": " Ovniric es un proyecto desarrollado en grupo utilizando metodologia agil scrum con fines educativos durante la cursada de Certified Tech Development en la escuela Digital House. Se presentó como un sitio de reservas que ofrece algunas experiencias espaciales. El objetivo del equipo fue desarrollar una aplicación web que cumpliera con todas las funcionalidades requeridas. Fue un proyecto Full Stack, donde el front-end se desarrolló utilizando la librería React para JavaScript, mientras que el back-end se desarrolló con Java utilizando SpringBoot para conectarse con una base de datos SQL. La infraestructura se creó en los servidores de AWS.",
       "urlPage": "http://ovniric.ddns.net/",
       "finalized": true,
-      "img" : "../images/ovniric.png"
+      "img" : "/ovniric.png"
     },
     {
       "name": "ClinicaOdontologica_Backend_DH",
       "description": "Se trata de un sistema de reserva de turnos para una clínica odontológica. Este programa se creo  con fines educatvos en la cursada de Certified Tech Development en la escuela Digital House. Se creo con Java  utilizando sprint boot, el programa permite administrar los datos de los odontólogos y pacientes, incluyendo su registro, modificación y eliminación. Además, permite registrar turnos para los pacientes con los odontólogos correspondientes en una fecha y hora determinada. De esta manera, el programa facilita la gestión y organización de los turnos en la clínica.",
       "urlPage": "https://cserna98.github.io/ClinicaOdontologica_Backend_DH",
       "finalized": true,
-      "img" : "pggortfolio.png"
+      "img" : "no apply"
     },
     {
       "name": "fe3-final-CristianSerna",
       "description": "Este proyecto se realizó con fines educativos, como examen final de una materia llamada Frontend III en el curso Certified Tech Development de la escuela Digital House. Es una página que administra información sobre odontólogos de un sitio, mostrando datos sobre cada uno de ellos y permitiendo al usuario gestionar sus odontólogos favoritos. La información de los odontólogos se obtiene de una API, y se administran los favoritos utilizando el local storage.",
       "urlPage": "https://cserna98.github.io/fe3-final-CristianSerna",
       "finalized": true,
-      "img" : "dentist.png"
+      "img" : "/dentist.png"
     },
 
     {
@@ -26,14 +26,14 @@
       "description": "Mi sitio web profesional personal de proyectos. Creado con ReactJs",
       "urlPage": "https://cserna98.github.io/Portfolio-",
       "finalized": true,
-      "img" : "portfolio.png"
+      "img" : "/portfolio.png"
     },
     {
       "name": "ToDo-List",
       "description": "Todo List es una aplicación que he creado para poner en práctica mis conocimientos en React, utilizando diferentes hooks de esta librería. Se trata de una pequeña aplicación que permite la creación y gestión de una lista de tareas, incluyendo su registro, edición y eliminación. Con este proyecto, he podido afianzar mis conocimientos en conceptos fundamentales de React, como componentes, props, state y ciclos de vida, así como el uso de diferentes hooks. De esta manera, Todo List es un proyecto personal que me ha permitido mejorar mis habilidades en desarrollo web con React.",
       "urlPage": "https://cserna98.github.io/ToDo-List",
       "finalized": false,
-      "img" : "todo.png"
+      "img" : "/todo.png"
     },
     {
       "name": "Parche_Parceros",

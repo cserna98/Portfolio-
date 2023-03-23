@@ -32,13 +32,13 @@ const formattedpushed_at = pushed_at.toLocaleDateString('es-ES', options);
   return (
     <div className={styles.project}>
       <h3 className={styles.name}>{Project.name}</h3>  
-      <img className={styles.imgProject} src={process.env.PUBLIC_URL + Project.img} alt='Not yet'/> 
+      <img className={styles.imgProject} src={process.env.PUBLIC_URL + Project.img} alt='No apply'/> 
   
       <div className={styles.info}>
         <p>Language: {Project.language}</p>
         <p>Link Page: <a href={Project.urlPage} target="_blank" rel="noopener noreferrer">{Project.name}</a></p>
         <p>Description : {`${Project.description.substring(0,70)} ...`} </p> 
-        <button onClick={handleOpen}>...View More</button>
+        <button onClick={handleOpen}>...show More</button>
       </div>
 
     <ProjectDetail Project={Project}

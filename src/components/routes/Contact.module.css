@@ -4,8 +4,8 @@ form {
     box-shadow: 15px 15px 15px 10px rgba(235, 242, 242, 2);
     padding: 2em;
     overflow: none !important;
-    height: 90%;
-    width: 80%;
+    height: 95vh;
+    width: 55vw;
     justify-content: space-between;
   }  
 
