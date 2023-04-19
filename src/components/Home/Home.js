@@ -1,8 +1,8 @@
 import {React, useState,useEffect } from 'react';
 import profilePicture from '../../assets/images/profile.jpg'
-import About from './About';
+import { Link } from 'react-scroll';
+import About from '../aboutMe/About';
 import paragraphs from '../../assets/text/paragraphs.json'
-import { text } from '@fortawesome/fontawesome-svg-core';
 import { GlobalContext } from '../utils/global.contex';
 import styles from './Home.module.css';
 

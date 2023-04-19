@@ -13,6 +13,15 @@ h1{
     flex-direction: column;
 }
 
+.btn{
+    height: 3vh;
+    width: 8vw;
+    margin: 1vh;
+    border-radius: 1vh;
+    background-color: var(--bar);
+    cursor: pointer;
+}
+
 .info{
     display: flex;
     margin: 1vw;
@@ -20,7 +29,8 @@ h1{
 }
 
 .description{
-    flex-direction: column;     
+    flex-direction: column;
+    margin: 1vw;     
     margin-top: 0.5vw;  
     width: 50%;   
 }

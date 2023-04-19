@@ -8,13 +8,21 @@ nav{
     position: fixed;
     width: 100%;     
     overflow: hidden;
-    background-color: var(--bar);
+    background-color: var(--fondo2);
+}
+.scrollLink{
+    cursor: pointer;
+}
+
+a.react-scroll{
+    outline: none;
 }
 
 a{
     color: #0F1D44;
     font-family: var(--font-primary);
     text-decoration: none;
+    
 }
 
 ul{ 
@@ -32,13 +40,7 @@ li{
     white-space: nowrap;    
 }
 
-.routes:hover {    
-    font-size: larger;
-    padding: 5px;
-    background-color: var(--hover);
-    border: 2px solid var(--hover);
-    border-radius: 5px;
-}
+
 
 #language_changer{
     align-items: center;

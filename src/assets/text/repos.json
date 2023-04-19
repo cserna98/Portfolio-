@@ -9,7 +9,7 @@
     {
       "name": "ClinicaOdontologica_Backend_DH",
       "description": "Se trata de un sistema de reserva de turnos para una clínica odontológica. Este programa se creo  con fines educatvos en la cursada de Certified Tech Development en la escuela Digital House. Se creo con Java  utilizando sprint boot, el programa permite administrar los datos de los odontólogos y pacientes, incluyendo su registro, modificación y eliminación. Además, permite registrar turnos para los pacientes con los odontólogos correspondientes en una fecha y hora determinada. De esta manera, el programa facilita la gestión y organización de los turnos en la clínica.",
-      "urlPage": "https://cserna98.github.io/ClinicaOdontologica_Backend_DH",
+      "urlPage": "no aplica",
       "finalized": true,
       "img" : "no apply"
     },
@@ -40,6 +40,6 @@
       "description": "Parche Parceros es una aplicación que surge de la idea de tener el control de los costos y gastos en una salida entre amigos. Su principal objetivo es reducir las preocupaciones acerca de los gastos en una salida, mediante el registro de los gastos de cada asistente y la división de la cuenta de la manera en que el grupo prefiera. Esta idea es propia y la aplicación se encuentra en una etapa inicial de desarrollo, implementando todas las funciones utilizando Java con Spring Boot. La idea es hacerla escalable y convertirla en una aplicación móvil.",
       "urlPage": "No aplica",
       "finalized": false,
-      "img" : "portfgholio.png"
+      "img" : "no palica"
     }
 ]

@@ -1,11 +1,11 @@
 {
     "en":{
         "home":{
-                "title" : "Hello, i'm Cristian and this is my personal web site",
+                "title" : "Hello, I'm Cristian and this is my personal web site",
                 "paragraph" : "Web developer in training, with a strong interest in learning and familiarizing myself with the tools necessary to create digital projects efficiently. My goal is to become a professional capable of creating comprehensive programs that serve as tools for society. I am constantly striving to improve and enhance my skills in order to provide value and make a difference in the world."
             },
         "About":{
-                "title" : "My full name, Cristian Serna Lopez",
+                "title" : "",
                 "paragraph" : "I am a passionate person about technology and programming, and I decided to pursue professional training in this field. I am a civil engineer from the University of Medellín and in 2021 I began learning about software development on my own. In March 2022, I enrolled in the Digital House school to obtain a solid and comprehensive training as a certified technical developer. Currently, I am acquiring skills in front-end, back-end and infrastructure knowledge to effectively work on technology projects."
             }
         },
@@ -16,7 +16,7 @@
                 "paragraph" : "Soy un desarrollador web en formación, con un fuerte interés en aprender y familiarizarme con las herramientas necesarias para crear proyectos digitales de manera eficiente. Mi objetivo es convertirme en un profesional capaz de crear programas integrales que sirvan como herramientas para la sociedad. Estoy constantemente esforzándome por mejorar y mejorar mis habilidades para brindar valor y marcar una diferencia en el mundo."
             },
         "About":{
-                "title" : "Mi nombre completo, Cristian Serna López",
+                "title" : "",
                 "paragraph" : "Soy una persona apasionada por la tecnología y la programación, y decidí buscar una formación profesional en este campo. Soy ingeniero civil de la Universidad de Medellín y en 2021 comencé a aprender sobre desarrollo de software por mi cuenta. En marzo de 2022, me matriculé en la escuela Digital House para obtener una formación sólida y completa como desarrollador técnico certificado. Actualmente, estoy adquiriendo habilidades en el conocimiento front-end, back-end e infraestructura para trabajar de manera efectiva en proyectos de tecnología."
             }
     }

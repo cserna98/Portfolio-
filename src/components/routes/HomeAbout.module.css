@@ -1,0 +1,9 @@
+.space{
+    height: 50vh;
+    
+}
+
+.Homeabout{
+    display: flex;
+    flex-direction: column;
+}
