@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-/static/css/main.5b9bb072.css",
-    "main.js": "/Portfolio-/static/js/main.3eeb0fd0.js",
+    "main.css": "/Portfolio-/static/css/main.996f8c48.css",
+    "main.js": "/Portfolio-/static/js/main.352bf75e.js",
     "static/js/496.1ebda612.chunk.js": "/Portfolio-/static/js/496.1ebda612.chunk.js",
     "static/media/profile.jpg": "/Portfolio-/static/media/profile.3e454907878d36f80411.jpg",
     "static/media/CV-Cristian Serna(Es).pdf": "/Portfolio-/static/media/CV-Cristian Serna(Es).b3b0ca6f83ed23c13ab6.pdf",
@@ -12,12 +12,12 @@
     "static/media/gorjeo.png": "/Portfolio-/static/media/gorjeo.8e65601e69067aadfe55.png",
     "static/media/espa.png": "/Portfolio-/static/media/espa.7ab20088ad372c62ab72.png",
     "index.html": "/Portfolio-/index.html",
-    "main.5b9bb072.css.map": "/Portfolio-/static/css/main.5b9bb072.css.map",
-    "main.3eeb0fd0.js.map": "/Portfolio-/static/js/main.3eeb0fd0.js.map",
+    "main.996f8c48.css.map": "/Portfolio-/static/css/main.996f8c48.css.map",
+    "main.352bf75e.js.map": "/Portfolio-/static/js/main.352bf75e.js.map",
     "496.1ebda612.chunk.js.map": "/Portfolio-/static/js/496.1ebda612.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b9bb072.css",
-    "static/js/main.3eeb0fd0.js"
+    "static/css/main.996f8c48.css",
+    "static/js/main.352bf75e.js"
   ]
 }
